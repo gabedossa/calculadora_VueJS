@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+# Calculadora Aritmética
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Projeto desenvolvido com **Vue.js** como parte das atividades do curso de Front-end da EBAC.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Sobre o projeto
+
+Calculadora aritmética reativa que realiza operações em tempo real conforme os valores são inseridos, sem necessidade de clicar em nenhum botão.
+
+## Funcionalidades
+
+- Dois campos de entrada para os números
+- Seleção da operação aritmética (+, −, ×, ÷)
+- Resultado calculado automaticamente ao alterar qualquer campo
+- Tratamento de divisão por zero
+
+## Tecnologias
+
+- [Vue.js 3](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+
+## Como rodar
+
+```bash
+# Instalar dependências
+npm install
+
+# Iniciar servidor de desenvolvimento
+npm run dev
+```
+
+Acesse [http://localhost:5173](http://localhost:5173) no navegador.
